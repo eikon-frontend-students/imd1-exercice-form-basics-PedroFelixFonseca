@@ -4,6 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulaires - Bases - Intégration</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="carte">
+      <h2>Discutons et collaborons sur des <strong>projets</strong> super!</h2>
+      <div class="formulaire">
+        <form>
+          <div class="radios">
+            <label for="radio1">
+              UI/UX Design
+              <input type="radio" id="radio1" name="radio" value="1" />
+            </label>
+            <label for="radio2">
+              Web Design
+              <input type="radio" id="radio2" name="radio" value="2" />
+            </label>
+            <label for="radio3">
+              Graphic Design
+              <input type="radio" id="radio3" name="radio" value="3" />
+            </label>
+            <label for="radio4">
+              Other
+              <input type="radio" id="radio4" name="radio" value="4" />
+            </label>
+          </div>
+          <label for="nom">Nom</label>
+          <input type="name" name="nom" id="name" placeholder="Votre prénom" />
+          <label for="email">Email *</label>
+          <input
+            type="email"
+            §§§
+            name="email"
+            id="email"
+            placeholder=" Votre Email"
+          />
+          <label for="message">Message*</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Votre message"
+          ></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
